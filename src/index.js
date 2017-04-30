@@ -8,7 +8,12 @@ const app = dva();
 // app.use({});
 
 // 3. Model
-// app.model(require('./models/example'));
+app.model(require('./models/comment'));
+app.model(require('./models/flea-market'));
+app.model(require('./models/helps'));
+app.model(require('./models/lost-office'));
+app.model(require('./models/news'));
+app.model(require('./models/wish-wall'));
 
 // 4. Router
 app.router(require('./router'));
