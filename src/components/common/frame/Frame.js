@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from '../nav-bar/NavBar';
-function NavBar(content) {
+function Frame(content) {
     return (
         <div>
             <NavBar/>
@@ -11,4 +11,4 @@ function NavBar(content) {
   );
 }
 
-export default NavBar;
+export default Frame;
