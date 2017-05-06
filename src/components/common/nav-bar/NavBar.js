@@ -1,7 +1,7 @@
 import { NavBar, Icon } from 'antd-mobile';
 import React from 'react';
 
-function NavBar() {
+const NBar = () => {
     return (
         <NavBar mode="light" onLeftClick={() => console.log('onLeftClick')}>
             title
@@ -9,4 +9,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default NBar;
